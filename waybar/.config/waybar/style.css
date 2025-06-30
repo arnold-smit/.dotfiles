@@ -9,11 +9,9 @@
 
 window#waybar {
     background: transparent;
-    background-color: @crust;
-    color: @overlay0;
+    /* background-color: @crust; */
     transition-property: background-color;
     transition-duration: 0.1s;
-    border-bottom: 1px solid @overlay1;
 }
 
 #window {
@@ -73,40 +71,23 @@ button:hover {
   margin-right: 4px;
   padding-left: 4px;
   padding-right: 4px;
+  background-color: @lavender;
+  border-radius: 5px;
 }
 
 #clock {
-    color: @maroon;
-    border-bottom: 2px solid @maroon;
 }
 
 #clock.date {
-    color: @mauve;
-    border-bottom: 2px solid @mauve;
 }
 
 #pulseaudio {
-    color: @blue;
-    border-bottom: 2px solid @blue;
 }
 
-#network {
-    color: @yellow;
-    border-bottom: 2px solid @yellow;
+#cpu {
 }
 
-#idle_inhibitor {
-    margin-right: 12px;
-    color: #7cb342;
-}
-
-#idle_inhibitor.activated {
-    color: @red;
-}
-
-#battery {
-    color: @green;
-    border-bottom: 2px solid @green;
+#memory {
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -119,9 +100,9 @@ button:hover {
     margin-right: 0;
 }
 
-#custom-vpn {
-    color: @lavender;
-    border-radius: 15px;
-    padding-left: 6px;
-    padding-right: 6px;
-}
+/* #custom-vpn { */
+/*     color: @lavender; */
+/*     border-radius: 15px; */
+/*     padding-left: 6px; */
+/*     padding-right: 6px; */
+/* } */
